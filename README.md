@@ -30,7 +30,8 @@ tqdm >= 4.60.0
 ├── my_model/                    
 │   ├── model.py                 # 自定义的 SimpleResBlock 模块与模型网络结构
 │   ├── engine.py                # 包含数据加载器与训练/验证循环逻辑
-│   ├── train.py                 # 自定义参数配置，训练并保存最优模型 
+│   ├── train.py                 # 自定义参数配置，训练并保存最优模型
+│   ├── test.py                  # 模型测试代码
 │   ├── run_experiments.py       # 四项对比实验代码
 │   └── visualize.py             # 卷积核与特征提取的可视化分析
 ├── VGG_BatchNorm/
